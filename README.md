@@ -1,9 +1,11 @@
 SOFTSPIDERS
 
-# lerna
+# lerna-app-jfront-lib-starter
 
 Minimalistic template for [Lerna](https://lerna.js.org/)
 
+---
+UNDER DEVELOPMENT
 ---
 
 ## Feature tags

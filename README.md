@@ -1,6 +1,6 @@
 SOFTSPIDERS
 
-# lerna-app-jfront-lib-starter
+# lerna-app-jfront-lib-war-starter
 
 Minimalistic application using JFront library in [Lerna monorepo](https://lerna.js.org/)
 

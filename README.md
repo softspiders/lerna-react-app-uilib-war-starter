@@ -2,7 +2,7 @@ SOFTSPIDERS
 
 # lerna-react-app-uilib-war-starter
 
-Minimalistic application starter which use JFront library in [Lerna monorepo](https://lerna.js.org/), builded in war
+Minimalistic application starter which uses JFront library in [Lerna monorepo](https://lerna.js.org/), builded in war
 
 ---
 

@@ -1,14 +1,36 @@
 {
-  "name": "root",
+  "name": "lerna-react-app-uilib-starter",
   "version": "1.0.0",
-  "description": "Minimal template for Lerna Monorepo",
-  "repository": "https://github.com/softspider/lerna-hw",
-  "author": "Alexander Lapygin",
+  "description": "React application starter with ui library in Lerna monorepo",
+  "main": "index.js",
+  "private": true,
+  "repository": "https://github.com/softspiders/lerna-react-lib-starter",
+  "keywords": [
+    "react",
+    "lerna",
+    "lib",
+    "monorepo",
+    "softspiders",
+    "starter",
+    "template"
+  ],
+  "author": "Alexander Lapygin <alexanderlapygin@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "some-command": "lerna run some-command"
+    "bootstrap": "lerna bootstrap",
+    "start:dev:lib": "cd packages/example-lib && npm start --stream",
+    "start:dev:app": "cd packages/example-app && npm start --stream",
+    "clean": "lerna clean",
+    "clean:build": "lerna exec -- rimraf lib",
+    "build": "lerna run build",
+    "test": "exit 0"
   },
+  "bugs": {
+    "url": "https://github.com/softspiders/lerna-react-lib-starter/issues"
+  },
+  "homepage": "https://github.com/softspiders/lerna-react-lib-starter/blob/master/README.md",
   "devDependencies": {
-    "lerna": "^3.18.3"
+    "lerna": "^2.11.0",
+    "rimraf": "^3.0.1"
   }
 }

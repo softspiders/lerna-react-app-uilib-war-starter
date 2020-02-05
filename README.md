@@ -1,8 +1,6 @@
 SOFTSPIDERS
 
-UNDER DEVELOPMENT
-
-# lerna-react-app-uilib-starter
+# *lerna-react-app-uilib-war-starter*
 
 [React](https://reactjs.org/) application starter with ui library in [Lerna](https://lerna.js.org/) monorepo
 
@@ -11,11 +9,14 @@ UNDER DEVELOPMENT
 ## Feature tags
 
 - app
+- build
 - lerna
+- maven
 - uilib
 - react
 - spa
 - starter
+- war
 
 ---
 

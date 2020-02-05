@@ -23,6 +23,7 @@
     "clean": "lerna clean",
     "clean:build": "lerna exec -- rimraf lib",
     "build": "lerna run build",
+    "build:war": "npm run build && cd ./packages/example-app && mvn package",
     "test": "exit 0"
   },
   "bugs": {

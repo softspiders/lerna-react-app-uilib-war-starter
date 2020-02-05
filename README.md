@@ -69,6 +69,8 @@ Being at the root directory, execute
 npm run build:war
 ```
 
+After successful build the result will be the *packages/example-app/target/example-app-war.war* file.
+
 ---
 
 ### License

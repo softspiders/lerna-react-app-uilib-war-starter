@@ -68,3 +68,4 @@ lib-esm
 
 *.tsbuildinfo
 /.idea/
+/packages/example-app/target/

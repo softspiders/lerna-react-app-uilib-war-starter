@@ -12,10 +12,10 @@ SOFTSPIDERS
 - build
 - lerna
 - maven
-- uilib
 - react
 - spa
 - starter
+- uilib
 - war
 
 ---

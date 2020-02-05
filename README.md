@@ -22,7 +22,7 @@ SOFTSPIDERS
 
 ## Direct ancestors
 
-[Starter for Lerna monorepo](https://github.com/softspiders/lerna)
+[React application starter with ui library in Lerna monorepo](https://github.com/softspiders/lerna-react-app-uilib-starter)
 
 ---
 

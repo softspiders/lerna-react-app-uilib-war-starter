@@ -2,8 +2,8 @@ SOFTSPIDERS
 
 # *lerna-react-app-uilib-war-starter*
 
-[React](https://reactjs.org/) application starter with ui library in [Lerna](https://lerna.js.org/) monorepo which build
-in war
+[React](https://reactjs.org/) application starter with ui library in [Lerna](https://lerna.js.org/) monorepo and war
+building
 
 ---
 

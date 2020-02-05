@@ -33,7 +33,7 @@ in war
 
 ## Authors
 
-[Alexander Lapygin](https://github.com/AlexanderLapygin) - Adapting the [react-lib-starter](https://github.com/antonybudianto/react-lib-starter) to *Soft Spiders*
+[Alexander Lapygin](https://github.com/AlexanderLapygin) <<alexanderlapygin@gmail.com>>
 
 ---
 

@@ -1,4 +1,4 @@
-SOFTSPIDERS
+[SOFTSPIDERS](https://github.com/softspiders/softspiders)
 
 # *lerna-react-app-uilib-war-starter*
 
@@ -16,6 +16,7 @@ building
 - react
 - spa
 - starter
+- template
 - uilib
 - war
 

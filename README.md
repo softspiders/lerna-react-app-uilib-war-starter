@@ -1,61 +1,80 @@
-SOFTSPIDERS
+[SOFTSPIDERS](https://github.com/softspiders/softspiders)
 
-# lerna-app-jfront-lib-war-starter
+# *lerna-react-app-uilib-war-starter*
 
-Some change
-
-Minimalistic application using JFront library in [Lerna monorepo](https://lerna.js.org/), builded in war
-
----
-
-UNDER DEVELOPMENT
+[React](https://reactjs.org/) application starter with ui library in [Lerna](https://lerna.js.org/) monorepo and war
+building
 
 ---
 
 ## Feature tags
-- javascript
-- jfront
+
+- app
+- build
 - lerna
-- lib
+- maven
+- react
+- spa
 - starter
+- template
+- uilib
 - war
 
+---
+
 ## Direct ancestors
-TBD
+
+[React application starter with ui library in Lerna monorepo](https://github.com/softspiders/lerna-react-app-uilib-starter)
 
 ---
 
+## Inspired by
 
-## Lerna installation
-
-```
-npm install --global lerna
-```
----
-
-## Install
-
-Being at the root, execute
-
-```
-lerna bootstrap
-```
-
----
-
-## Build
-
-TBD
-
----
-
+[Antony Budianto](https://github.com/antonybudianto)'s [react-lib-starter](https://github.com/antonybudianto/react-lib-starter)
 
 ## Authors
 
-[Alexander Lapygin](https://github.com/AlexanderLapygin)
+[Alexander Lapygin](https://github.com/AlexanderLapygin) <<alexanderlapygin@gmail.com>>
+
+---
+
+## Install
+1. Clone this repo
+2. Install dependencies
+```sh
+# yarn is fine too
+npm i
+```
+3. Run bootstrap
+```sh
+npm run bootstrap
+```
+
+   This will bootstrap and link between app and lib
+4. Now, it's ready!
+
+## Dev flow
+1. Run start
+```sh
+npm run start:dev:lib
+npm run start:dev:app
+```
+2. Try changing the lib, it should reflect the changes directly
+3. Now, you can start developing your React library!
+
+## Build war
+
+Being at the root directory, execute
+
+```sh
+npm run build:war
+```
+
+After successful build the result will be the *packages/example-app/target/example-app-war.war* file.
 
 ---
 
 ### License
 
-Licensed under the [MIT license](./LICENSE)
+Licensed under the [MIT license](./LICENSE). 
+
